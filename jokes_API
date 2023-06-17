@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            margin-top: 10%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(233, 172, 42);
+            height: 50vh;
+            width: 60vw;
+            border-radius: 20%;
+        }
+        button{
+            cursor: pointer;
+            margin-bottom: 90px;
+        }
+        .container h3{           
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 style="font-size: 50px;">Best jokes</h3>
+        <div id="joke" class="joke">Awesome joke is loading</div>
+        <button id="jokeBtn">Next Joke</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
